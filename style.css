@@ -1,0 +1,56 @@
+body {
+    background-image: url(assets/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.imgb {
+    height: 50px;
+}
+
+.top {
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.top .nav-link {
+    color: white !important;
+    padding-bottom: 0 !important;
+    padding-top: 2px !important;
+    font-size: 15px;
+}
+
+.bottom .nav-link {
+    padding: 0 !important;
+
+}
+
+.right .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    width: 35%;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 16px;
+}
+
+.logo {
+    height: 15px;
+    top: 5px;
+    position: fixed;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 5px;
+}
